@@ -5,7 +5,7 @@ const NavbarMain = () => {
   return (
     <div className="navbar-main">
       <div className="logo">
-        <Link to="/">🛍️ MyShop</Link>
+        <Link to="/">🛍️ Prince & Co.</Link>
       </div>
       <div className="nav-menu">
         <Link to="/blogs">Blogs</Link>
