@@ -9,6 +9,7 @@ import Blog from './pages/Blog';
 import Community from './pages/Community';
 import NavbarTop from './components/NavbarTop';
 import NavbarMain from './components/NavbarMain';
+import ProductDetail from "./pages/ProductDetail"; // <- Import it
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/blogs" element={<Blog />} />
         <Route path="/Community" element={<Community />} />
-
+        <Route path="/product/:id" element={<ProductDetail />} />
       </Routes>
     </Router>
   );
