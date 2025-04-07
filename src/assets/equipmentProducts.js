@@ -1,6 +1,6 @@
 const EQUIPMENT_PRODUCTS = [
     {
-      "id": 1,
+      "id": 41,
       "name": "Eco Yoga Mat",
       "price": 1490,
       "image": "https://images.pexels.com/photos/4056723/pexels-photo-4056723.jpeg",

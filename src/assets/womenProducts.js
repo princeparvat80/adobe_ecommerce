@@ -1,6 +1,6 @@
 const WOMEN_PRODUCTS = [
     {
-      "id": 1,
+      "id": 21,
       "name": "Luna Sports Bra",
       "price": 1490,
       "image": "https://images.pexels.com/photos/3735716/pexels-photo-3735716.jpeg",
@@ -13,7 +13,7 @@ const WOMEN_PRODUCTS = [
       "description": "Supportive bra for medium-impact activities."
     },
     {
-      "id": 2,
+      "id": 22,
       "name": "Athena Yoga Pants",
       "price": 2990,
       "image": "https://images.pexels.com/photos/1815733/pexels-photo-1815733.jpeg",

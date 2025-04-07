@@ -9,10 +9,15 @@ import Blog from './pages/Blog';
 import Community from './pages/Community';
 import NavbarTop from './components/NavbarTop';
 import NavbarMain from './components/NavbarMain';
-import ProductDetail from "./pages/ProductDetail"; // <- Import it
+import ProductDetail from "./pages/ProductDetail"; 
+import CartProvider from "./context/CartContext"; 
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Cart from './pages/Cart'; 
 
 function App() {
   return (
+    <CartProvider>
     <Router>
       <NavbarTop />
       <NavbarMain />
@@ -25,8 +30,11 @@ function App() {
         <Route path="/blogs" element={<Blog />} />
         <Route path="/Community" element={<Community />} />
         <Route path="/product/:id" element={<ProductDetail />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
+      <ToastContainer position="top-right" autoClose={1500} />
     </Router>
+    </CartProvider>
   );
 }
 
