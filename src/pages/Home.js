@@ -105,8 +105,8 @@ const Home = () => {
 
       {/* Blog Section */}
       <section className="blog-section">
-        <h2 className="section-title">Our Top Blog Stories</h2>
-        <div className="blog-grid">
+      <h2 className="section-title">📝 Our Top Blog Stories</h2>
+      <div className="blog-grid">
           <div className="blog-card">
             <img src={BLOG1} alt="Beginner's Luck" />
             <h3>Beginner's Luck</h3>
@@ -142,6 +142,7 @@ const Home = () => {
         <button className="scroll-top-btn" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           BACK TO TOP ⬆
         </button>
+        
       </section>
     </div>
   );

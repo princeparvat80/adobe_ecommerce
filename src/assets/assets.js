@@ -1,5 +1,7 @@
 // Hero video
-export const VIDEO_BANNER = "https://www.w3schools.com/html/mov_bbb.mp4";
+
+export const VIDEO_BANNER = "/4265086-uhd_3840_2160_30fps.mp4";
+
 
 // Category images
 export const IMG_WOMEN = "https://images.pexels.com/photos/3768918/pexels-photo-3768918.jpeg";
