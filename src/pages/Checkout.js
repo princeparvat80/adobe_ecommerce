@@ -32,9 +32,11 @@ const Checkout = () => {
   };
 
   const handleConfirm = () => {
-    alert("✅ Order placed successfully!");
+    // alert("✅ Order placed successfully!");
     sessionStorage.removeItem("checkoutData");
-    window.location.href = "/";
+    // window.location.href = "/";
+    window.location.href = "/thank-you";
+
   };
 
   return (
