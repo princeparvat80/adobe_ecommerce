@@ -14,6 +14,7 @@ import CartProvider from "./context/CartContext";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Cart from './pages/Cart'; 
+import Checkout from './pages/Checkout';
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
         <Route path="/Community" element={<Community />} />
         <Route path="/product/:id" element={<ProductDetail />} />
         <Route path="/cart" element={<Cart />} />
+<Route path="/checkout" element={<Checkout />} />
+
       </Routes>
       <ToastContainer position="top-right" autoClose={1500} />
     </Router>
